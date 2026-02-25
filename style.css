@@ -1,0 +1,16 @@
+
+body { 
+    font-family: sans-serif; 
+    margin:0; 
+    padding:20px; 
+    background: url('https://i.imgur.com/3G1z1xV.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    color: #fff;
+}
+h1{text-align:center;margin-bottom:16px;text-shadow:2px 2px 4px #000;}
+textarea, select{width:100%;margin-bottom:12px;padding:10px;font-size:16px;}
+button{padding:10px 15px;margin:5px;font-size:16px;cursor:pointer;}
+.panel-container{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;}
+.panel{width:200px;background:rgba(0,0,0,0.6);padding:10px;border-radius:10px;box-shadow:0 0 8px rgba(0,0,0,0.5);}
+.panel img{width:100%;border-radius:8px;margin-bottom:6px;}
+.edit-popup{display:none;position:absolute;background:#fff;color:#000;border:1px solid #ccc;padding:8px;border-radius:6px;z-index:10;}

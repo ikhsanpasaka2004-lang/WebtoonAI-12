@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Webtoon AI Full Upgrade</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Webtoon AI - Naruto</h1>
+
+<textarea id="storyInput" placeholder="Tulis cerita lengkap di sini…"></textarea><br>
+
+<select id="panelCount">
+  <option value="1">1 Panel</option>
+  <option value="2">2 Panel</option>
+  <option value="3">3 Panel</option>
+  <option value="4">4 Panel</option>
+  <option value="5">5 Panel</option>
+  <option value="10">10 Panel</option>
+</select>
+<br>
+<button id="generateBtn">Generate Panel</button>
+<button id="downloadPNG">Download Semua PNG</button>
+<button id="downloadPDF">Download PDF Episode</button>
+
+<div id="panels" class="panel-container"></div>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+</html>
